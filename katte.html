@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css.css">
+<link rel="icon" type="image/png" href="favicon.png"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</head>
+<body onload="katteimage()">
+    <h1 class="display-1">
+        KatteBillder så du kan blive glad
+        </h1>
+        <body>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item active" href="me.html">Me</a></li>
+                  <li><a class="dropdown-item" href="maerkesager.html">Mærkesager</a></li>
+                  <li><a class="dropdown-item" href="index.html">Start</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+        
+        
+        <div class="small-spaceing"><p class="text"></p></div>
+ <div id="katteImage"> <img id="randImage"/> </div>
+
+ <script>
+     function katteimage(){
+        const katte = ["katte/Kat0.jpg","katte/Kat1.jpg","katte/Kat2.jpg", "katte/Kat3.jpg", "katte/Kat4.jpg", "katte/Kat5.jpg","katte/Kat6.jpg"];
+    var num = Math.floor( Math.random() * 6);
+    var img = katte[num];
+    document.getElementById('randImage').src = katte[num];
+     }
+   
+    
+</script>
+</body>

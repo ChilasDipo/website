@@ -1,0 +1,23 @@
+.spaceing {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+.small-spaceing {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#katteImage{
+   margin: auto;
+   width: 50%;
+}
+body {
+    background-color: rgb(148, 148, 148);
+}
+.text{
+   font-size: x-large;
+}
+h1{
+   text-align: center;
+}
