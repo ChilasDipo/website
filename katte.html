@@ -30,12 +30,9 @@
 
  <script>
      function katteimage(){
-        const katte = ["katte/Kat0.jpg","katte/Kat1.jpg","katte/Kat2.jpg", "katte/Kat3.jpg", "katte/Kat4.jpg", "katte/Kat5.jpg","katte/Kat6.jpg"];
-    var num = Math.floor( Math.random() * 6);
-    var img = katte[num];
-    document.getElementById('randImage').src = katte[num];
+    var num = Math.floor( Math.random() * 12);
+    var string = "katte/Kat" + num + ".jpg";
+    document.getElementById('randImage').src = string;
      }
-   
-    
 </script>
 </body>
